@@ -207,7 +207,7 @@ public class HomeController : BaseController
         this.logger.LogInformation("Home Controller / Index ");
         try
         {
-            this.applicationConfigService.SaveFileToDisk("LogoFile", "contoso-sales.png");
+            this.applicationConfigService.SaveFileToDisk("LogoFile", "comeen-logo.png");
             this.applicationConfigService.SaveFileToDisk("FaviconFile", "favicon.ico");
 
             var userId = this.userService.AddUser(this.GetCurrentUserDetail());

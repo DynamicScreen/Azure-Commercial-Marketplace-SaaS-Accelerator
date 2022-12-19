@@ -114,8 +114,8 @@ Write-Host "🔑 Azure Subscription '$AzureSubscriptionID' selected."
 if($LogoURLpng) { 
     Write-Host "📷 Logo image provided"
 	Write-Host "   🔵 Downloading Logo image file"
-    Invoke-WebRequest -Uri $LogoURLpng -OutFile "../src/CustomerSite/wwwroot/contoso-sales.png"
-    Invoke-WebRequest -Uri $LogoURLpng -OutFile "../src/AdminSite/wwwroot/contoso-sales.png"
+    Invoke-WebRequest -Uri $LogoURLpng -OutFile "../src/CustomerSite/wwwroot/comeen-logo.png"
+    Invoke-WebRequest -Uri $LogoURLpng -OutFile "../src/AdminSite/wwwroot/comeen-logo.png"
     Write-Host "   🔵 Logo image downloaded"
 }
 
